@@ -5,7 +5,6 @@ from urllib.error import URLError
 import urllib.parse
 
 import datetime
-import random 
 import re
 import sys
 import pymysql
@@ -16,6 +15,7 @@ from SQLConnection import DBHelper
 import linecache
 import webbrowser
 import numpy as np
+
 # Now, let’s use requests_html to run the JavaScript code in order to render the HTML we’re looking for.
 # import HTMLSession from requests_html
 from selenium import webdriver

@@ -1,19 +1,29 @@
 from setuptools import setup
 
-
 setup(
-  name = 'pypdb',
-  packages = ['pypdb'], # same as 'name'
-  version = '1.300',
+  name = 'scrapdb',
+  packages = ['scrapdb'], # same as 'name'
+  version = '0.1',
   install_requires=[
         'xmltodict', 
-        'beautifulsoup4'
+        'beautifulsoup4',
+        'numpy',
+        'urllib',
+        'datetime',
+        'pymysql',
+        'logging',
+        'requests',
+        'SQLConnection',
+        'linecache',
+        'webbrowser',
+        'selenium',
+        'requests_html'
   ],
-  description = 'A Python wrapper for the RCSB Protein Data Bank (PDB) API',
-  author = 'William Gilpin',
-  author_email = 'firstname_lastname@gmail.com',
-  url = 'https://github.com/williamgilpin/pypdb',
-  download_url = 'https://github.com/williamgilpin/pypdb/tarball/0.6', 
-  keywords = ['protein','data','RESTful','api'],
+  description = 'A Python scrapper for the RCSB Protein Data Bank (PDB) API',
+  author = 'Agustin Bruzzese',
+  author_email = 'bruzzese.agustin@gmail.com',
+  url = 'https://github.com/BruzzeseAgustin/PDB',
+  download_url = 'https://github.com/BruzzeseAgustin/PDB', 
+  keywords = ['protein','data','api'],
   classifiers = [],
 )
