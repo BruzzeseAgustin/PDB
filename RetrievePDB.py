@@ -79,7 +79,7 @@ def getLinks(articleUrl):
 
 
 # Open database connection
-connection = pymysql.connect(host='localhost', port=int(5000) , user='root', password='Br_4912#862', db='mysql', charset='utf8')
+connection = pymysql.connect(host='localhost', port=int(5000) , user='root', password='xxxx', db='mysql', charset='utf8')
 
 # prepare a cursor object using cursor() method
 cur = connection.cursor()
